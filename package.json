@@ -1,0 +1,16 @@
+{
+  "name": "String_Calculator_TDD_Assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AratiGadgil/String_Calculator_TDD_Assessment.git",
+  "author": "Arati Kulkarni",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  }
+}
