@@ -25,3 +25,9 @@ describe("add function with multiple numbers in input string", () => {
     assert.equal(result, 6);
   });
 });
+describe("add function with multiple numbers in input string and \n as delimiter", () => {
+  it("should return sum of numbers in the string", () => {
+    const result = add("1\n2,3");
+    assert.equal(result, 6);
+  });
+});
